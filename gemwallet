@@ -2,13 +2,13 @@
 
 Step 1: Use Resolve Names
 
-GET: https://app.xrpdomains.xyz/api/xrplnft/getAddress?domain=xrpdomains.xrp
+GET: https://app.xrpdomains.xyz/api/xrplnft/getAddress?domain=xrpl.xrp
 
 Response: 
 
-{"status":true,"code":0,"msg":"Success","data":{"owner":"rLhi87aSCyNW88tW4632yLiwinbghFZNue","nftoken_id":"","profile_uri":"https://xrp.name/xrpdomains.xrp","metadata":[],"addresses":[]}}
+{"status":true,"code":0,"msg":"Success","data":{"owner":"rNzk1cEhQ9tLhVnTNJ7xnk242PG3q9mxAa","nftoken_id":"","profile_uri":"https://xrp.name/xrpl.xrp","metadata":[],"addresses":[]}}
 
-Step 2: Get the profile_uri field in the returned JSON: https://xrp.name/xrpdomains.xrp
+Step 2: Get the profile_uri field in the returned JSON: https://xrp.name/xrpl.xrp
 
 Step 3: For the unregistered domain field, the system will still return profile_uri, when the user accesses it, it will display an unregistered domain message and a button to navigate to the registration page.
 
