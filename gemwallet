@@ -16,6 +16,11 @@ Step 3: For the unregistered domain field, the system will still return profile_
 
 GET: https://app.xrpdomains.xyz/api/xrplnft/getAddress?domain=notfound.xrp
 
+Response:
+```
+{"status":true,"code":0,"msg":"Success","data":{"owner":"","nftoken_id":"","profile_uri":"https://xrp.name/notfound.xrp","metadata":[],"addresses":[]}}
+```
+
 Step 4: Referral link
 add #inviter=gemwallet after profile_uri, for example: https://xrp.name/notfound.xrp#inviter=gemwallet
 
