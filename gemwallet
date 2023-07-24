@@ -8,8 +8,7 @@ Response:
 
 {"status":true,"code":0,"msg":"Success","data":{"owner":"rLhi87aSCyNW88tW4632yLiwinbghFZNue","nftoken_id":"","profile_uri":"https://xrp.name/xrpdomains.xrp","metadata":[],"addresses":[]}}
 
-Step 2:
-Get the profile_uri field in the returned JSON.
+Step 2: Get the profile_uri field in the returned JSON: https://xrp.name/xrpdomains.xrp
 
 Step 3: For the unregistered domain field, the system will still return profile_uri, when the user accesses it, it will display an unregistered domain message and a button to navigate to the registration page.
 
