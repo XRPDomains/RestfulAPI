@@ -1,0 +1,22 @@
+## XRPDomains integrated into Gemwallet browser extension.
+
+Step 1: Use Resolve Names
+
+GET: https://app.xrpdomains.xyz/api/xrplnft/getAddress?domain=xrpdomains.xrp
+
+Response: 
+```
+{"status":true,"code":0,"msg":"Success","data":{"owner":"rLhi87aSCyNW88tW4632yLiwinbghFZNue","nftoken_id":"","profile_uri":"https://xrp.name/xrpdomains.xrp","metadata":[],"addresses":[]}}
+```
+
+Step 2:
+Get the profile_uri field in the returned JSON.
+
+Step 3: For the unregistered domain field, the system will still return profile_uri, when the user accesses it, it will display an unregistered domain message and a button to navigate to the registration page.
+
+GET: https://app.xrpdomains.xyz/api/xrplnft/getAddress?domain=notfound.xrp
+
+Step 4: Referral link
+add #inviter=gemwallet after profile_uri, for example: https://xrp.name/notfound.xrp#inviter=gemwallet
+
+Thanks!
